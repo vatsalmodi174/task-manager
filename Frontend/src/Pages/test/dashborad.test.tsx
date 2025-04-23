@@ -30,7 +30,7 @@ const renderWithContext = () => {
 describe("Dashboard Component", () => {
   test("renders Dashboard title", () => {
     renderWithContext()
-    expect(screen.getByText(/dashboard/i)).toBeInTheDocument()
+    expect(screen.getByRole("heading", { name: /dashboard/i })).toBeInTheDocument()
   })
 
   test("shows Create Task button", () => {

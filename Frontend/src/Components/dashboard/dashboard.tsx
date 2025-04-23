@@ -181,7 +181,7 @@ function Dashboard() {
                     onClick={() => setShowModal(false)}
                     className="bg-gray-200 text-gray-800 px-4 py-2 rounded-lg"
                   >
-                    No, cancel
+                    No, cancle
                   </button>
                 </div>
               </div>
@@ -192,7 +192,7 @@ function Dashboard() {
           {showToast && (
             <div
               id="toast-success"
-              className="fixed bottom-4 right-4 flex items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800"
+              className="fixed bottom-4 right-4 flex items-center w-full max-w-xs p-4 text-white-500 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg shadow dark:text-white-400 dark:bg-gray-800"
               role="alert"
             >
               <svg

@@ -141,7 +141,7 @@ function AddTask() {
 
 {/* {Toast Massage} */}
       {showToastTwo && (
-        <div className="fixed bottom-4 right-4 flex items-center w-full max-w-xs p-4 text-gray-500 bg-white rounded-lg shadow dark:text-gray-400 dark:bg-gray-800" role="alert">
+        <div className="fixed bottom-4 right-4 flex items-center w-full max-w-xs p-4 text-white-500 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg shadow dark:text-white-400 dark:bg-gray-800" role="alert">
           <svg className="w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20">
             <path
               fillRule="evenodd"
